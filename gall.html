@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <style>
+        .header {
+            color: black;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-size: 2.2vw;
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        .header img {
+            height: 10vw;
+            position: relative;
+
+
+        }
+
+        nav {
+            position: relative;
+            display: flex;
+            justify-content: center;
+            gap: 6vw;
+            margin: 0vw 0vw 0vw 0;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+
+        }
+
+        nav li {
+            list-style: none;
+        }
+
+        nav li a {
+            color: black;
+            text-decoration: none;
+            font-size: 1.2vw;
+        }
+
+        .mainhead {
+            font-family: Cochin;
+            font-size: 3.5vw;
+            text-align: center;
+            margin: 3vw 0;
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            /* Adjust the gap as needed */
+            text-align: center;
+            grid-auto-rows: minmax(100px, auto);
+            /* Set the minimum height for rows */
+            align-content: start;
+            /* Align content at the start of the container */
+        }
+
+        .gallery img {
+            width: 30vw;
+            /* Set the width of each image */
+            height: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <img src="logow.png" alt="">
+        <p>Ankita Kratzel</p>
+
+    </div>
+    <nav>
+        <li>
+            <a href="home.html">Home</a>
+
+        </li>
+        <li>
+            <a href="gallery.html">Gallery</a>
+
+        </li>
+        <li>
+            <a href="about.html">About Me</a>
+
+        </li>
+    </nav>
+    <div class="mainhead">
+        Welcome to my Gallery Page
+
+    </div>
+    <div class="gallery">
+        <img src="1.jpg" alt="">
+        <img src="2.jpg" alt="">
+        <img src="3.JPEG" alt="">
+        <img src="4.JPG" alt="">
+        <img src="5.JPG" alt="">
+        <img src="6.JPG" alt="">
+        <img src="7.jpg" alt="">
+        <img src="8.jpg" alt="">
+        <img src="9.jpg" alt="">
+        <img src="10.JPG" alt="">
+        <img src="11.JPG" alt="">
+        <img src="12.jpg" alt="">
+        <img src="13.JPG" alt="">
+        <img src="14.JPEG" alt="">
+        <img src="15.JPG" alt="">
+        <img src="16.JPG" alt="">
+        <img src="17.JPG" alt="">
+        <img src="18.JPG" alt="">
+        <img src="19.JPG" alt="">
+        <img src="20.JPG" alt="">
+    </div>
+    
+</body>
+
+</html>
